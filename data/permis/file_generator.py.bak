@@ -1,0 +1,15 @@
+import shutil
+
+
+def generate_files(src, dst, name, extension):
+    for i in range(0, 5000):
+        print("Creating file number " + str(i))
+        shutil.copy(src, dst + "\\" + name + "_" + str(i) + extension)
+
+
+#if __name__ == '__main__':
+source = r'C:\data\permis\permis.PNG'
+destination = r'C:\data\permis\images'
+file_name = "permis"
+file_extension = ".PNG"
+generate_files(source, destination, file_name, file_extension)
