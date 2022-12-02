@@ -1,7 +1,7 @@
 # ecotag-workshop
 
 
-0. clone this repository with fake data
+0. Clone this repository with fake data
 
 ```sh
 git clone https://github.com/AxaGuilDEv/ecotag-workshop
